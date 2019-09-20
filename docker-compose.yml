@@ -1,0 +1,9 @@
+version: '2'
+services:
+  rails:
+    build: .
+    command: "/bin/sleep 1000000000"
+    volumes:
+      - ".:/app"
+    ports:
+      - "3000:3000"
