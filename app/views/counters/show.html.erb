@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @counter.name %>
+</p>
+
+<p>
+  <strong>Value:</strong>
+  <%= @counter.value %>
+</p>
+
+<%= link_to 'Edit', edit_counter_path(@counter) %> |
+<%= link_to 'Back', counters_path %>
